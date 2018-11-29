@@ -1,1 +1,1 @@
-./configure && make && make testlanguage: cscript: sconscompiler: gcc
+language: cscript: make testbefore_install:	sudo apt-get update && sudo apt-get install -y checkaddons:	apt:		update: true
