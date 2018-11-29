@@ -1,1 +1,6 @@
-language: cscript: make testbefore_install:	sudo apt-get update && sudo apt-get install -y checkaddons:	apt:		update: true
+language: c
+script: make test
+before_install:	sudo apt-get update && sudo apt-get install -y check
+addons:
+        apt:
+                update: true
